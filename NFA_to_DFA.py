@@ -22,6 +22,7 @@ class NFA:
     def states(self):        #function for storing the states of the NFA
         n= int(input("Provide the number of states in your Non deterministic Finite Automaton : "))
 
+        print("Give inputs i.e. the states in the form of a character ")
         print("give the initial state in the 1st input")
         for i in range(0,n):
             x=input("Give the "+str(i+1)+"th state : " )
@@ -32,6 +33,7 @@ class NFA:
     def alpahabet(self):     #function for storing the alphabets(symbols) of the NFA
         n1 = int(input("Provide the number of elements in the alphabet set : "))
 
+        print("Give inputs i.e. the states in the form of a character or a single digit")
         for i in range(0, n1):
 
             if i==0:
