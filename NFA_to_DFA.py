@@ -33,7 +33,7 @@ class NFA:
     def alpahabet(self):     #function for storing the alphabets(symbols) of the NFA
         n1 = int(input("Provide the number of elements in the alphabet set : "))
 
-        print("Give inputs i.e. the states in the form of a character or a single digit")
+        print("Give inputs i.e. the alphabets in the form of a character or a single digit")
         for i in range(0, n1):
 
             if i==0:
